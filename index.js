@@ -3,4 +3,5 @@ function lowerCaseDrivers(drivers){
   let newDrivers = drivers.map(function(drvr){
     return drvr.toLowerCase();
   })
+  return newDrivers;
 }
